@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  article {
+    width: 100%;
+  }
+}

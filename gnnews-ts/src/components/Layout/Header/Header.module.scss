@@ -1,0 +1,42 @@
+.header {
+  min-height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    width: 100px;
+    height: 30px;
+    padding: 5px 15px;
+  }
+
+  button, a {
+    border-radius: 5px;
+    color: lightgrey;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    transition: .3s all;
+    padding: 5px 2px;
+    @media(min-width: 768px) {
+      flex: unset;
+      width: 100px;
+    }
+
+    &:hover {
+      background-color: #202020;
+
+    }
+  }
+}
+
+.viewIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.langIcon {
+  width: 20px;
+}

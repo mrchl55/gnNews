@@ -1,0 +1,15 @@
+.countryItem {
+  a {
+    display: flex;
+    color: darkgrey;
+
+    &.active {
+      color: white;
+    }
+  }
+
+  img {
+    width: 20px;
+    padding-right: 10px;
+  }
+}

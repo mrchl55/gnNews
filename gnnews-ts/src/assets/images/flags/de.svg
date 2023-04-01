@@ -1,0 +1,21 @@
+<svg
+        xmlns='http://www.w3.org/2000/svg'
+        x='0'
+        y='0'
+        version='1'
+        viewBox='0 0 1063 637.8'
+>
+  <path
+          fill='#ffe600'
+          fillRule='evenodd'
+          strokeWidth='1pt'
+          d='M0 425.2H1063V637.8H0z'
+  ></path>
+  <path fillRule='evenodd' strokeWidth='1pt' d='M0 0H1063V212.6H0z'></path>
+  <path
+          fill='red'
+          fillRule='evenodd'
+          strokeWidth='1pt'
+          d='M0 212.6H1063V425.2H0z'
+  ></path>
+</svg>

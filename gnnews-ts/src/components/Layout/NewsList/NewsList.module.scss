@@ -1,0 +1,56 @@
+.newslist {
+  background-color: #222;
+  float: left;
+  padding: 0;
+  width: 100%;
+
+  &.tilesView {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @media screen and (min-width: 768px) {
+      grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    li {
+      z-index: 1;
+      justify-content: flex-start;
+      align-items: flex-start;
+      background-color: #222;
+      display: flex;
+      padding: 20px;
+      flex-direction: column;
+      position: relative;
+
+      div {
+        flex-direction: column;
+      }
+
+      &:before {
+        z-index: -1;
+        border: 1px solid white;
+      }
+    }
+  }
+
+  &.listView {
+    li {
+      display: flex;
+      justify-content: space-between;
+
+      div {
+        @media(min-width: 768px) {
+          padding-right: 50px;
+          padding-left: 20px;
+          flex-direction: column;
+        }
+
+        p {
+          padding: 0;
+          margin: 2px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.side-menu {
+  background-color: #202020;
+  padding: 20px;
+  width: 100%;
+  @media(min-width: 768px) {
+    width: 200px;
+    min-height: 100vh;
+  }
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: white;
+    opacity: .2;
+  }
+
+  ul {
+
+
+    li {
+      padding: 5px 0;
+    }
+  }
+}

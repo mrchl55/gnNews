@@ -1,0 +1,14 @@
+.countriesList {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 12px;
+  padding: 5px;
+  @media(min-width: 768px) {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+}
